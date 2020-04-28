@@ -55,7 +55,9 @@ body{margin:0;background-color: RGB(0,191,255)}
 #coral-2{left:5800px}
 #coral-3{left:6800px}
 .contact-confirmation-container,.coral-b,.coral-big{position:absolute}
-#coral-big-1{left:1300px;bottom:-70%;width:300px;height:400px;background-image:url(../material/coral-big-a.png)}#coral-big-2{left:1700px;bottom:-70%;width:650px;height:500px;background-image:url(../material/coral-big-b.png)}#contact-box{position:absolute;top:120px;margin-left:-840px;width:940px;height:420px;background-image:url(../material/contact-box.png)}
+#coral-big-1{left:1300px;bottom:-70%;width:300px;height:400px;background-image:url(../material/coral-big-a.png)}#coral-big-2{left:1700px;bottom:-70%;width:650px;height:500px;background-image:url(../material/coral-big-b.png)}
+
+#contact-box{position:absolute;top:120px;margin-left:-610px;width:640px;height:420px;background-color: green; border: 20px solid rgb(108,78,53)}
 #contact-box-email{position:absolute;left:570px;top:20px;width:350px;height:30px;background-image:url(../material/contact-box-hole-a.png)}
 #contact-box-email input,#contact-box-subject input{font-family: 'Press Start 2P', cursive;font-size:14px;color:#fff;width:340px;margin:5px;border:0;background-color:transparent}
 #contact-box-email input:focus,#contact-box-message textarea:focus,#contact-box-subject input:focus{outline:0}#contact-box-message,#contact-box-subject{position:absolute;left:570px;width:350px}
@@ -397,10 +399,10 @@ img{border-style:none}
 .skill-measurement-header{position:absolute;padding:6px 10px 5px;background-color:#00bff3;font-family:frankfurter-medium-plain;color:#0072bc;font-size:18px}
 .skill-measurement-line{position:absolute;width:1px;height:100%;background-color:#00bff3}
 .scroll-or-swipe-text-container{position:absolute;bottom:-120px;width:100%;height:50px;font-family: 'Press Start 2P', cursive;color:#fff;font-size:30px;text-align:center;opacity:0;filter:alpha(opacity=0)}
-#social-bottom{position:relative;left:20px;width:80px;height:21px;margin-top:-1px;background-image:url(../material/social-bottom.png)}
-#social-container{position:absolute;width:120px;left:85%}
-#social-middle{position:relative;left:20px;width:70px;padding-top:20px;padding-left:10px;padding-bottom:10px;background-color:#ed1c24}
-#social-top{position:relative;width:120px;height:23px;margin-bottom:-1px;background-image:url(../material/social-top.png)}
+/* #social-bottom{position:relative;left:20px;width:80px;height:21px;margin-top:-1px;background-image:url(../material/social-bottom.png)} */
+#social-container{position:absolute; margin-top: 5vw; zoom: 130%; left:85%;height:102px;width:102px;background-image: url(../material/flower.png)}
+/* #social-middle{position:relative;left:102px;width:102px;background-image: url(../material/flower.png)} */
+/* #social-top{position:relative;width:120px;height:23px;margin-bottom:-1px;background-image:url(../material/social-top.png)} */
 .social-icon{position:relative;width:60px;height:60px;margin-bottom:10px}
 #splash-container,#squid{position:absolute;bottom:20%;width:1300px;height:548px}
 #squid{left:430px;bottom:10px;width:570px;height:600px}
@@ -420,7 +422,7 @@ img{border-style:none}
 
 #gate-4{left:30930px}
 
-#title-contact{position:absolute;top:0;margin-left:-540px;width:499px;height:65px;background-image:url(../material/contact.png)}
+#title-contact{position:absolute;top:0;margin-left:-520px;width:499px;height:65px;background-image:url(../material/contact.png)}
 #title-experience,#title-position{position:absolute;left:13500px;bottom:80%;width:715px;height:65px;background-image:url(../material/experience.png)}
 #title-position{zoom: 50%;left:48vw;bottom:120vh;width:1215px;height:65px;background-image:url(../material/title.png)}
 #title-ai, #title-s, #title-portfolio{position:absolute;left:31210px;bottom:20%;width:643px;height:65px;background-image:url(../material/education.png)}
