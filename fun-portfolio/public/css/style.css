@@ -181,7 +181,7 @@ to {
 .experience-text-c,.experience-text-d,.experience-text-e{position:relative;margin-bottom:20px;font-family: 'Press Start 2P', cursive;color:#fff;font-size:18px}
 .experience-text-d{width:75%}
 .experience-text-e{width:85%}
-.experience-text-container{position:absolute;bottom:185px;width:510px;background-color:#444;padding:40px;border-style:solid;border-width:10px;border-color:#777}
+.experience-text-container{position:absolute;bottom:185px;width:510px;background-color: green;padding:40px;border: 20px solid rgb(108,78,53)}
 #email-button,#fence{position:absolute;width:485px;height:230px;background-image:url(../material/email-button.png)}
 .face-left{-moz-transform:scaleX(-1);-webkit-transform:scaleX(-1);-o-transform:scaleX(-1);transform:scaleX(-1);-ms-filter:fliph;filter:fliph}
 .face-right{-moz-transform:scaleX(1);-webkit-transform:scaleX(1);-o-transform:scaleX(1);transform:scaleX(1)}
@@ -244,8 +244,8 @@ img{border-style:none}
 #nba-board-4{left:550px;bottom:0}
 #nba-board-5{left:670px;bottom:0}
 #nba-board-6{left:790px;bottom:0}
-.nba-board-blue,.nba-board-red{position:absolute;width:110px;height:140px;background-image:url(../material/nba-board-blue.png)}
-.nba-board-red{background-image:url(../material/nba-board-red.png)}
+.nba-board-blue,.nba-board-red{position:absolute;width:181px;height:138px;background-image:url(../material/spotter-1.png)}
+.nba-board-red{background-image:url(../material/spotter-2.png)}
 #nba-container{position:absolute;left:6680px;bottom:20%;width:900px;height:80%}
 #nba-player{position:relative;left:-50%;overflow:hidden;width:300px;height:280px}
 #nba-player-eyes{position:absolute;left:92px;top:75px;width:66px;height:30px;opacity:0;filter:alpha(opacity=0);background-image:url(../material/enemy-face-b-eyes.png)}
@@ -254,7 +254,7 @@ img{border-style:none}
 #nba-rim,#nba-rim-container{position:absolute;width:280px}
 #nba-rim-container{left:310px;bottom:0;height:500px}
 #nba-rim{height:550px;background-image:url(../material/nba-rim.png)}
-.nba-text{position:relative;top:-17px;font-family: 'Press Start 2P', cursive;color:#fff;font-size:120px;margin-left:-50%}
+.nba-text{position:relative;top:43px;font-family: 'Press Start 2P', cursive;color:#fff;font-size:60px;margin-left:-50%}
 .nba-text-container{position:absolute;left:50%}
 #hangar,#hangar-door{position:absolute;left:8030px;bottom:20%;width:800px;height:530px;background-color:#555}
 #hangar-door{left:100px;bottom:0;width:600px;height:290px;background-color:#333
@@ -326,9 +326,9 @@ img{border-style:none}
 #preloader-banner{position:relative;left:-50%;margin-top:-115px;width:600px;height:230px}
 #preloader-banner-container{position:absolute;left:50%;top:50%}
 /* #preloader-banner-left{position:absolute;left:0;top:0;width:80px;height:230px;background-image:url(../material/preloader-banner-left.png)} */
-#preloader-banner-middle{position:absolute;left:79px;top:0;width:440px;height:190px;background-color:#f26d7d}
+#preloader-banner-middle{position:absolute;left:79px;top:0;width:500px;height:190px;background-color: green; border: 20px solid rgb(108,78,53)}
 /* #preloader-banner-right{position:absolute;left:518px;top:0;width:80px;height:230px;background-image:url(../material/preloader-banner-right.png)} */
-#preloader-banner-text-a,#preloader-banner-text-b{position:relative;font-family: 'Press Start 2P', cursive;color:#fff;font-size:72px;text-align:center;margin-top:29px}
+#preloader-banner-text-a,#preloader-banner-text-b{position:relative;font-family: 'Press Start 2P', cursive;color:#fff;font-size:50px;text-align:center;margin-top:29px}
 #preloader-banner-text-b{font-size:39px;margin-top:-12px}
 #preloader-dots{position:absolute;left:194px;top:130px;width:53px;height:9px}
 .preloader-dots-animation{background-image:url(../material/preloader-dots-animation.gif)}
