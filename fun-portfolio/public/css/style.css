@@ -11,9 +11,9 @@ a{text-decoration:none;}
 .algae-a{bottom:0;width:151px;height:299px;background-image:url(../material/seaweed.png)}
 #alien,.algae-a,.algae-b{position:absolute}
 .algae-b{background-image:url(../material/seaweed2.png);zoom: 40%; bottom:0;width:593px;height:569px}
-#alien{left:540px;bottom:30px;width:400px;height:636px}
-#alien-body{position:absolute;top:0;width: 473;height:473px;background-image:url(../material/float-shuri-2.png)}
-#alien-body,#alien-ship{left:0;width:400px}
+#alien{left:540px;bottom:30px;width:410px;height:473px}
+#alien-body{position:absolute;top:0;width: 410px;height:473px;background-image:url(../material/float-shuri-2.png)}
+/* #alien-body,#alien-ship{left:0;width:400px} */
 /* #alien-ship,#alien-steer{position:absolute}
 #alien-ship{top:515px;height:121px;background-image:url(../material/alien-ship.png)}
 #alien-steer{left:90px;top:430px;width:220px;height:170px;background-image:url(../material/alien-steer.png)} */
@@ -150,7 +150,7 @@ to {
 .displaynone{display:none}
 #dock-column,#dock-floor{position:absolute;left:24750px;top:80%;width:15970px}
 #dock-floor{height:50px;background-image:url(../material/dock-floor.png)}
-#dock-column{height:20%;background-image:url(../material/dock-column.png)}
+#dock-column{height:90%;background-image:url(../material/dock-column.png)}
 #elevation-1,#elevation-2{left:4380px;bottom:20%;width:400px;height:160px}
 /* #elevation-1,#elevation-2{left:4380px;bottom:20%;width:400px;height:120px} */
 #elevation-2{left:6080px}
