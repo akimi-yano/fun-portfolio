@@ -83,7 +83,7 @@ body{margin:0;background-color: RGB(0,191,255)}
 .sun{position: absolute}
 .content-noscroll{position:absolute;width:100%;height:100%;overflow:hidden}
 .cloud{z-index:-3;width:230px;height:119px;background-image:url(../material/cloud.png)}
-.sun{width:229px; height:221px; background-image:url(../material/sun.png)}
+.sun{z-index:-3;width:229px; height:221px; background-image:url(../material/sun.png)}
 
 #cloud-1{left:100px;top:20%}
 
@@ -231,7 +231,7 @@ to {
 #gate-text-1{left:50px}
 #gate-text-2,#gate-text-3{left:50px}
 #gate-text-4,#gate-text-5{left:50px}
-.grass{position:absolute;width:100%;height:173px;zoom: 36%;background-image:url(../material/grass-better.png)}
+.grass{z-index:-2;position:absolute;width:100%;height:173px;zoom: 36%;background-image:url(../material/grass-better.png)}
 .ground,.layer-horizontal{position:absolute;height:100%}
 .ground{z-index:-2;width:100%;zoom: 59%;background-image:url(../material/ground-better.png)}
 #ground-and-grass-container-1{position:absolute;left:0;top:80%;width:8100px;height:90%}
@@ -265,14 +265,15 @@ img{border-style:none}
 #nba-player-eyes{position:absolute;left:92px;top:75px;width:66px;height:30px;opacity:0;filter:alpha(opacity=0);background-image:url(../material/enemy-face-b-eyes.png)}
 #nba-player-container{position:absolute;left:50%;bottom:0}
 #nba-player-frame{position:absolute;left:0;top:0;width:1200px;height:280px;background-image:url(../material/nba-player.png)}
-#nba-rim,#nba-rim-container{position:absolute;width:280px}
-#nba-rim-container{left:310px;bottom:0;height:500px}
-#nba-rim{height:550px;background-image:url(../material/nba-rim.png)}
+#nba-rim,.monkey,#nba-rim-container{position:absolute;width:800px}
+.monkey{width:1033px; zoom:200%; height:456px;bottom: 30%;background-image: url(../material/monkey.png)}
+#nba-rim-container{left:100px;bottom:0;height:1300px}
+#nba-rim{height:38px;bottom: 30%;background-image:url(../material/twig.png)}
 .nba-text{position:relative;top:43px;font-family: 'Press Start 2P', cursive;color:#fff;font-size:60px;margin-left:-50%}
 .nba-text-container{position:absolute;left:50%}
 #hangar,#hangar-door{position:absolute;left:8030px;bottom:20%;width:800px;height:530px;background-color:#555}
-#hangar-door{left:100px;bottom:0;width:600px;height:290px;background-color:#333
-}#hangar-roof{position:absolute;width:100%;height:40px;background-color:#aaa}
+#hangar-door{left:100px;bottom:0;width:600px;height:290px;background-color:#333}
+#hangar-roof{position:absolute;width:100%;height:40px;background-color:#aaa}
 #hangar-window{position:absolute;left:100px;top:90px;width:600px;height:100px;background-image:url(../material/hangar-window.png)}
 #page{left:0;top:0;width:100%}
 #panel{position:absolute;top:50px;width:100%;height:100%;background-image:url(../material/panel-wood.png)}
