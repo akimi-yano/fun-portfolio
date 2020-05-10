@@ -455,7 +455,7 @@ img{border-style:none}
 
 
 #title-ai{zoom: 80%;left:28vw;bottom:60vh;width:840px;height:65px;background-image:url(../material/name-with-s.png)}
-#title-skills{position:absolute; width:428px;height:65px;background-image:url(../material/skills.png)}
+#title-skills{position:absolute; z-index:10 ;width:428px;height:65px;background-image:url(../material/skills.png)}
 .transparent{opacity:0;filter:alpha(opacity=0)}
 #title-skills,#tree-1,#tree-2{left:0;bottom:0}
 #tree-2{left:140px}
